@@ -1,15 +1,13 @@
-import './index.css'
+import MainLayout from "./containers/MainLayout";
 
 function App() {
 
   return (
     <>
-      <div className='text-red-500'>
-          Prueba que fuciona tailwind
-      </div>
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
-      </p>
+    <div className="custom-bg bg-cover bg-center min-h-screen">
+      <MainLayout/>
+    </div>
+
     </>
   )
 }
